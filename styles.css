@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar{
+    padding: 10px;
+    background-color: #7797d1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#title{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    
+}
+.body{
+    border: red 2px solid;
+    height: 80%;
+}
+#temp-body{
+    height: 800px;
+}
+.footer{
+    border:blue 2px solid;
+    height: 100px;
+}
