@@ -23,6 +23,16 @@
     display: flex;
     
 }
+#title button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 32pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title :hover{
+    color: blue;
+}
 
 /* The button class is meant for buttons */
 .button{
