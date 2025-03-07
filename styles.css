@@ -1,26 +1,68 @@
+/* This applys to the whole screen. It currently makes it so there is no gap on the edges of the screen*/
 *{
     padding: 0px;
     margin: 0px;
 }
-.nav-bar{
+
+/* The nav-bar class which stands for navigation bar is the bar at the top of the screen
+   The nav-bar is creates so the user can go to diffrent pages of the website */
+.nav-bar{ 
     padding: 10px;
     background-color: #7797d1;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
 }
 
+/* This id is meant for the title in the nav-bar */
 #title{
-    font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    display: flex;
     
 }
+
+/* The button class is meant for buttons */
+.button{
+    text-align: right;
+    display: flex;
+    gap: 10px;
+}
+
+/* When you make a button inside the button class it applys these propertys */
+.button button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* This class decides what happens to the button when you hover over it */
+.button :hover{
+    background-color: aqua;
+    /* transform: scale(1.1); --> Slightly enlarges the button
+     * box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); --> adds a shadow
+     * color: green; --> changes text color 
+     * transform: rotate(5deg); --> rotates the button*/
+}
+
+/* The body is where all information in the website will be displayed */
 .body{
     border: red 2px solid;
     height: 80%;
 }
+
+/* a temperary body to fill up the screen*/
 #temp-body{
     height: 800px;
 }
+
+/* The footer is where copyright/credit will go */
 .footer{
     border:blue 2px solid;
     height: 100px;
