@@ -78,9 +78,12 @@
 /* The body is where all information in the website will be displayed */
 .body{
     border: red 2px solid;
-    height: 80%;
+    height: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* a temperary body to fill up the screen*/
 #temp-body{
     height: 800px;
