@@ -21,8 +21,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     display: flex;
-    
+    text-decoration: none;    
+    font-size: 32pt;
 }
+
 #title button{
     cursor: pointer;
     border: none;
@@ -34,11 +36,23 @@
     color: blue;
 }
 
-/* The button class is meant for buttons */
-.button{
+.buttons{
     text-align: right;
     display: flex;
     gap: 10px;
+}
+/* The button class is meant for buttons */
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* When you make a button inside the button class it applys these propertys */
