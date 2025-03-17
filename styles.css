@@ -23,8 +23,22 @@
     display: flex;
     text-decoration: none;    
     font-size: 32pt;
+    text-align: center;
 }
-
+#logo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
 #title button{
     cursor: pointer;
     border: none;
