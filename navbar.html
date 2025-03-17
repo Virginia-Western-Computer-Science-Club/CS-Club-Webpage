@@ -12,6 +12,31 @@
         <a href="#" class = "button">Portfolio</a>
     </div>
 </div>
-<img id="logo" src="imgs\pngimg.com - circle_PNG63.png" style="position: relative; bottom: 50px; margin-left: auto; margin-right: auto;">
+<style>
+    /* Background image (lower layer) */
+    .background {
+        position: absolute;
+        z-index: 1; /* Lower layer */
+        width: 300px;
+        height: 200px;
+    }
+
+    /* Frontround image (upper layer) */
+    .frontground {
+        position: absolute;
+        z-index: 2; /* Higher layer */
+        width: 300px;
+        height: 200px;
+        top: -50px; /* Adjust position */
+        left: 50px;
+    }
+</style>
+<div class="logo">
+
+    <img id="logo" src="imgs/CS-Club-Logo-Shadow.png" class="frontground" style="position: relative;">
+    <img id="VWCC-Back" src="imgs/VWCC-Background.jpg" class=" background"style="position: relative; bottom: 200px; opacity: 0.5; width: 100%; height: auto;">
+
+</div>
+
 
 </html>
