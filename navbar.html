@@ -14,4 +14,31 @@
 </div>
 <img id="logo" src="imgs\CS-Club-Logo-Shadow.png" style="position: relative; margin-left: auto; margin-right: auto;">
 </div>
+<style>
+    /* Background image (lower layer) */
+    .background {
+        position: absolute;
+        z-index: 1; /* Lower layer */
+        width: 300px;
+        height: 200px;
+    }
+
+    /* Frontround image (upper layer) */
+    .frontground {
+        position: absolute;
+        z-index: 2; /* Higher layer */
+        width: 300px;
+        height: 200px;
+        top: -50px; /* Adjust position */
+        left: 50px;
+    }
+</style>
+<div class="logo">
+
+    
+    <img id="VWCC-Back" src="imgs/VWCC-Background.jpg" class=" background"style="position: relative; bottom: 200px; opacity: 0.5; width: 100%; height: auto;">
+
+</div>
+
+
 </html>

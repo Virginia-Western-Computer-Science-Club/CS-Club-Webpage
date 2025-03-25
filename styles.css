@@ -31,9 +31,11 @@
     text-decoration: none;    
     font-size: 32pt;
     text-align: center;
+
 }
 #logo{
     position: absolute;
+    background-blend-mode: lighten;
     height: 200px;
     width: 200px;
     top: -20px;
@@ -112,6 +114,7 @@ html{
 }
 /* a temperary body to fill up the screen*/
 #temp-body{
+
     height: 800px;
 }
 
