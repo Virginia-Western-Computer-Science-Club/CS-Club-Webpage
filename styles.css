@@ -1,12 +1,12 @@
 /* This applys to the whole screen. It currently makes it so there is no gap on the edges of the screen*/
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 /* The nav-bar class which stands for navigation bar is the bar at the top of the screen
    The nav-bar is creates so the user can go to diffrent pages of the website */
-.nav-bar{ 
+.nav-bar {
     padding: 10px;
     background-color: #031951;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -14,59 +14,70 @@
     text-align: center;
     justify-content: space-between;
     font-size: 30px;
-    a{
+
+    a {
         text-decoration: underline;
         text-decoration-color: #031951;
         text-decoration-thickness: 1.5px;
         text-underline-offset: 4px;
-    
     }
-    
+
 }
 
 /* This id is meant for the title in the nav-bar */
-#title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #c9ba10;
     display: flex;
-    text-decoration: none;    
+    text-decoration: none;
     font-size: 32pt;
     text-align: center;
 
 }
-#logo{
+
+#logo {
+    position: fixed;
     background-blend-mode: lighten;
     height: 200px;
     width: 200px;
+    top: -20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
-.center{
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%
 }
-#title button{
+
+#title button {
     cursor: pointer;
     border: none;
     background: none;
     font-size: 32pt;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#title :hover{
+
+#title :hover {
     color: blue;
 }
 
-.buttons{
+.blueback {
+    background-color: #031951;
+}
+
+.buttons {
     text-align: right;
     display: flex;
     gap: 10px;
 }
+
 /* The button class is meant for buttons */
-.button{
+.button {
     display: inline-block;
     padding: 10px 10px;
     font-size: 25px;
@@ -80,7 +91,7 @@
 }
 
 /* When you make a button inside the button class it applys these propertys */
-.button button{
+.button button {
     padding: 10px 15px;
     font-size: 16px;
     border: none;
@@ -91,7 +102,7 @@
 }
 
 /* This class decides what happens to the button when you hover over it */
-.button :hover{
+.button :hover {
     background-color: aqua;
     /* transform: scale(1.1); --> Slightly enlarges the button
      * box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); --> adds a shadow
@@ -100,22 +111,40 @@
 }
 
 /* The body is where all information in the website will be displayed */
-.body{
+.body {
+    position: static;
+    overflow: visible;
     border: red 2px solid;
     height: 100%;
 }
 
-html{
+html {
     scroll-behavior: smooth;
+    position: static;
+    overflow: visible;
 }
+
 /* a temperary body to fill up the screen*/
-#temp-body{
+#temp-body {
 
     height: 800px;
 }
 
 /* The footer is where copyright/credit will go */
-.footer{
-    border:blue 2px solid;
+.footer {
+    border: blue 2px solid;
     height: 100px;
+}
+
+/* This styles the 'Additional Information' box in the aboutUs.html link*/
+#side-bar {
+    position: absolute;
+    width: 200px;
+    background-color: rgba(234, 222, 9, 0.333);
+    border: 2px solid #031951;
+    border-radius: 10px;
+    padding: 20px;
+    top: 275px;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
