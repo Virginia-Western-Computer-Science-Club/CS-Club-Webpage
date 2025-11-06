@@ -26,8 +26,8 @@
 
 /* This id is meant for the title in the nav-bar */
 #title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #c9ba10;
+    font-family: 'monospace';
+    color: #FEC00F;
     display: flex;
     text-decoration: none;
     font-size: 32pt;
