@@ -7,13 +7,13 @@
 /* The nav-bar class which stands for navigation bar is the bar at the top of the screen
    The nav-bar is creates so the user can go to diffrent pages of the website */
 .nav-bar {
-    padding: 10px;
+    padding: 15px;
     background-color: #031951;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     text-align: center;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 30x;
 
     a {
         text-decoration: underline;
@@ -30,7 +30,7 @@
     color: #FEC00F;
     display: flex;
     text-decoration: none;
-    font-size: 32pt;
+    font-size: 28pt;
     text-align: center;
 
 }
@@ -140,7 +140,7 @@ html {
 #side-bar {
     position: absolute;
     width: 200px;
-    background-color: rgba(234, 222, 9, 0.333);
+    background-color: #FEC00F;
     border: 2px solid #031951;
     border-radius: 10px;
     padding: 20px;
