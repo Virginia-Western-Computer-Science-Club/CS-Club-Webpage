@@ -138,13 +138,15 @@ html {
 
 /* This styles the 'Additional Information' box in the aboutUs.html link*/
 #side-bar {
-    position: absolute;
-    width: 200px;
+    text-align: left;
+    float: left;
+    position: relative;
+    width: 30%;
     background-color: #FEC00F;
     border: 2px solid #031951;
     border-radius: 10px;
     padding: 20px;
-    top: 150px;
-    left: 10px;
+    top: 30%;
+    left: 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
