@@ -103,7 +103,7 @@
 
 /* This class decides what happens to the button when you hover over it */
 .button :hover {
-    background-color: aqua;
+    background-color: #cc980c;
     /* transform: scale(1.1); --> Slightly enlarges the button
      * box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); --> adds a shadow
      * color: green; --> changes text color 
