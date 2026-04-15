@@ -2,7 +2,7 @@
 // Wait until the page has loaded
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch navbar.html file
-    fetch("navbar.html")
+    fetch("/navbar.html")
         .then(function(response) {
             return response.text(); // Convert response to text
         })
